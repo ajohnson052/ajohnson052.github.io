@@ -9,7 +9,7 @@ body{
 
 header{
   position: fixed;
-  width: 10%;
+  width: auto;
 }
 
 main{
@@ -19,40 +19,26 @@ main{
 }
 
 section{
-  height: 100vh;
+  min-height: 100vh;
   padding: 20px;
+  border-top: 2px solid black;
 }
 
-.col{
+.half{
+  min-width: 400px;
   width:50%;
   float:left;
 }
 
-.edu {
-  border: 2px solid black;
-  margin: 20px;
-  padding: 10px;
-}
-.volunteer{
-  border: 2px solid black;
-  margin: 20px;
-  padding: 10px;
+section h1{
+  font-size: 50px;
+  text-align: center;
+  margin:0px;
 }
 
-.abroad{
+.edu, .volunteer, .abroad, .employment, .awards {
   border: 2px solid black;
-  margin: 20px;
-  padding: 10px;
-}
-
-.employment{
-  border: 2px solid black;
-  margin: 20px;
-  padding: 10px;
-}
-
-.awards{
-  border: 2px solid black;
+  background: dimgrey;
   margin: 20px;
   padding: 10px;
 }
@@ -68,4 +54,25 @@ a{
 
 i{
   margin: 10px;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+ul>li {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+ul>li>ul>li{
+  font-weight: normal;
+  font-size: 16px;
+  margin: 5px;
+}
+
+.descrip{
+  margin:10px;
 }
