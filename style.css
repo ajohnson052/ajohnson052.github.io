@@ -5,7 +5,7 @@
 body{
   font-family: 'Raleway', sans-serif;
   background: papayawhip;
-  position:relative;
+  position:relative;;
 }
 
 main{
@@ -13,7 +13,7 @@ main{
   margin: 0 auto;
 }
 
-.home{
+#home{
   font-size: 30vh;
   color: grey;
 }
@@ -21,9 +21,12 @@ main{
 nav{
   width: auto;
   float: left;
+  top: 2vh;
 }
 
-
+nav > a{
+  text-transform: lowercase;
+}
 
 section{
   min-height: 100vh;
@@ -31,24 +34,24 @@ section{
   border-top: 2px solid grey;
 }
 
-.half{
+/*.half{
   min-width: 400px;
   width:50%;
   float:left;
-}
+}*/
 
-section h1{
-  font-size: 50px;
+h1{
+  font-size: 2rem;
   text-align: center;
-  margin:0px;
+  margin: 0;
 }
 
-.edu, .volunteer, .abroad, .employment, .awards {
+/*.edu, .volunteer, .abroad, .employment, .awards {
   border: 2px solid black;
   background: dimgrey;
   margin: 20px;
   padding: 10px;
-}
+}*/
 
 .contact{
   text-align:center;
