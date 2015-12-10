@@ -4,18 +4,20 @@
 
 body{
   font-family: Palatino;
-  background: grey;
+  background: papayawhip;
+  position:relative;
 }
 
-header{
-  position: fixed;
+.sidebar{
+  position:fixed;
   width: auto;
+  float: left;
 }
 
 main{
   width:90%;
-  margin: auto 0 auto auto;
   padding: 10px;
+  float:right;
 }
 
 section{
