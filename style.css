@@ -78,3 +78,7 @@ ul>li>ul>li{
 .descrip{
   margin:10px;
 }
+
+.list-inline > *{
+  display: inline-block;
+}

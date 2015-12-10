@@ -1,1 +1,3 @@
-console.log("script working")
+$(document).ready(function(){
+  console.log("script working")
+})
