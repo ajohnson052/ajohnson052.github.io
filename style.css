@@ -3,27 +3,32 @@
 }
 
 body{
-  font-family: Palatino;
+  font-family: 'Raleway', sans-serif;
   background: papayawhip;
   position:relative;
 }
 
-.sidebar{
-  position:fixed;
+main{
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.home{
+  font-size: 30vh;
+  color: grey;
+}
+
+nav{
   width: auto;
   float: left;
 }
 
-main{
-  width:90%;
-  padding: 10px;
-  float:right;
-}
+
 
 section{
   min-height: 100vh;
   padding: 20px;
-  border-top: 2px solid black;
+  border-top: 2px solid grey;
 }
 
 .half{

@@ -1,3 +1,13 @@
 $(document).ready(function(){
-  console.log("script working")
+  $(window).scroll(function(){
+    console.log($(window).scrollTop())
+    if ($(window).scrollTop() < $(".home").height()){
+      console.log('top')
+      $("nav").css("position", "relative")
+    }
+    else{
+      $("nav").css("position", "fixed")
+      $("nav").css("top", "5vh")
+    }
+  })
 })
