@@ -5,6 +5,7 @@
 body{
   font-family: 'Raleway', sans-serif;
   background: papayawhip;
+  /*rgb(255, 239, 213)*/
   position:relative;;
   color: grey;
 }
@@ -19,14 +20,32 @@ main{
   color: grey;
 }
 
+.project{
+  margin: 5vh 0;
+}
+
+.icon{
+  border-radius: 20vh;
+  background: white;
+  height: 20vh;
+  width: 20vh;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  float: left;
+  margin: 1rem;
+}
+.icon img{
+  position: absolute;
+  max-width: 100%;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
 nav{
   width: auto;
   float: left;
   top: 2vh;
-}
-
-nav > a{
-  text-transform: lowercase;
 }
 
 section{
@@ -53,11 +72,6 @@ h2{
   margin: 0 auto;
   font-family: monospace;
 }
-/*.half{
-  min-width: 400px;
-  width:50%;
-  float:left;
-}*/
 
 h1{
   font-size: 2rem;
@@ -66,13 +80,6 @@ h1{
   text-transform: lowercase;
 }
 
-/*.edu, .volunteer, .abroad, .employment, .awards {
-  border: 2px solid black;
-  background: dimgrey;
-  margin: 20px;
-  padding: 10px;
-}*/
-
 .contact{
   text-align:center;
 }
@@ -80,6 +87,7 @@ h1{
 a{
   color: grey;
   text-decoration: none;
+  text-transform: lowercase;
 }
 
 i{
@@ -87,26 +95,19 @@ i{
 }
 
 ul{
-  list-style-type: none;
   padding: 0;
   text-align: center;
 }
 
-ul>li {
-  font-weight: bold;
-  font-size: 20px;
-}
-
-ul>li>ul>li{
-  font-weight: normal;
-  font-size: 16px;
-  margin: 5px;
-}
-
-.descrip{
-  margin:10px;
-}
-
 .list-inline > *{
   display: inline-block;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
 }
