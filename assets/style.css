@@ -8,13 +8,9 @@ html{
 
 body{
   font-family: 'Raleway', sans-serif;
-  background: rgb(88, 111, 107);
-  /*rgb(256, 240, 214);*/
-  /*rgb(177,221,87)*/
+  background: rgb(168,255,204);
   position:relative;
-  color: rgb(192, 180, 161);
-  /*rgb(176, 222, 214);*/
-  /*rgb(128, 120, 107);*/
+  color: rgb(28,106,96);
 }
 
 nav{
@@ -40,7 +36,7 @@ h1{
   text-align: center;
   margin: 0;
   text-transform: lowercase;
-  color: rgb(316,149,107);
+  color: rgb(195,196,100);
 }
 
 h2{
@@ -49,7 +45,7 @@ h2{
 }
 
 a{
-  color: rgb(192, 180, 161);
+  color: rgb(83, 110, 85);
   text-decoration: none;
   text-transform: lowercase;
 }
@@ -75,7 +71,7 @@ ul{
 
 .filter{
   background: black;
-  opacity: .2;
+  opacity: .4;
 }
 
 .project{
@@ -101,14 +97,12 @@ ul{
 }
 
 .content {
-  border-top: 2px solid rgb(192, 180, 161);
-  /*rgb(184,180,161);*/
+  border-top: 2px solid rgb(165, 219, 169);
   padding: 2rem;
 }
 
 .code {
-  border: 2px solid rgb(192, 180, 161);
-  /*rgb(184,180,161);*/
+  border: 2px solid rgb(165, 219, 169);
   overflow-x: scroll;
   width: 80%;
   border-radius: 1vw;
@@ -139,6 +133,5 @@ ul{
   font-size: 30vh;
   position: relative;
   z-index: 100;
-  color: rgb(156,185,125);
-  /*rgb(316,149,107);*/
+  color: rgb(195,196,100);
 }
