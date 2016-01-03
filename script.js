@@ -9,7 +9,7 @@ $(document).ready(function(){
       }
     }
   })
-  var descriptors = ["Web Developer", "Nature Enthusiast", "Economist", "Rock Climber", "Thinker", "Beer Lover", "Singer", "Biker", "Marathon Runner", "Tree Hugger", "Dancer", "Health Nut", "Yogini", "Traveler", "Rubyist", "Musician"]
+  var descriptors = ["Web Developer", "Nature Junkie", "Economist", "Rock Climber", "Thinker", "Beer Enthusiast", "Singer", "Biker", "Marathon Runner", "Tree Hugger", "Dancer", "Health Nut", "Yogini", "Traveler", "Rubyist", "Musician"]
   d3.select("#section1")
     .select(".content")
     .selectAll("h2")
