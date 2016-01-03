@@ -141,18 +141,22 @@ ul{
 
 @media screen and (max-width:400px){
 
-  nav{
+  /*nav{
     float: right;
     top: 2vh;
     position: relative;
-  }
+  }*/
 
   main{
     width: 100vw;
   }
 
+  h2{
+    font-size: 1.2rem;
+  }
+
   .mobile{
-    display: inline-block;
+    /*display: inline-block;*/
   }
 
   .web{
