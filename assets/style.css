@@ -8,9 +8,13 @@ html{
 
 body{
   font-family: 'Raleway', sans-serif;
-  background: rgb(256, 240, 214);
+  background: rgb(88, 111, 107);
+  /*rgb(256, 240, 214);*/
+  /*rgb(177,221,87)*/
   position:relative;
-  color: rgb(128, 120, 107);
+  color: rgb(192, 180, 161);
+  /*rgb(176, 222, 214);*/
+  /*rgb(128, 120, 107);*/
 }
 
 nav{
@@ -36,6 +40,7 @@ h1{
   text-align: center;
   margin: 0;
   text-transform: lowercase;
+  color: rgb(316,149,107);
 }
 
 h2{
@@ -44,7 +49,7 @@ h2{
 }
 
 a{
-  color: rgb(128, 120, 107);
+  color: rgb(192, 180, 161);
   text-decoration: none;
   text-transform: lowercase;
 }
@@ -66,6 +71,11 @@ ul{
 .tree img{
   position: fixed;
   opacity: .3;
+}
+
+.filter{
+  background: black;
+  opacity: .2;
 }
 
 .project{
@@ -90,20 +100,22 @@ ul{
   transform: translate(0, -50%);
 }
 
-
 .content {
-  border-top: 2px solid rgb(184,180,161);
+  border-top: 2px solid rgb(192, 180, 161);
+  /*rgb(184,180,161);*/
   padding: 2rem;
 }
 
 .code {
-  border: 2px solid rgb(184,180,161);
+  border: 2px solid rgb(192, 180, 161);
+  /*rgb(184,180,161);*/
   overflow-x: scroll;
   width: 80%;
   border-radius: 1vw;
   padding: 1rem;
   margin: 0 auto;
   font-family: monospace;
+  font-size: 0.8rem;
 }
 
 .contact{
@@ -127,4 +139,6 @@ ul{
   font-size: 30vh;
   position: relative;
   z-index: 100;
+  color: rgb(156,185,125);
+  /*rgb(316,149,107);*/
 }
