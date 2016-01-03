@@ -1,8 +1,3 @@
-@viewport {
-   width: device-width;
-   zoom:1;
-}
-
 *{
   box-sizing: border-box;
 }
@@ -86,8 +81,8 @@ ul{
 .icon{
   border-radius: 20vh;
   background: white;
-  height: 20vh;
-  width: 20vh;
+  height: 6rem;
+  width: 6rem;
   overflow: hidden;
   position: relative;
   display: inline-block;
@@ -144,10 +139,6 @@ ul{
   color: rgb(195,196,100);
 }
 
-#section1{
-
-}
-
 @media screen and (max-width:400px){
 
   nav{
@@ -169,11 +160,17 @@ ul{
   }
 
   .tree{
-    width: 80vw;
+    display: none;
   }
 
   .tree img{
     position: absolute;
+  }
+
+  .icon{
+    display: block;
+    float: none;
+    margin: 0 auto;
   }
 
 }
