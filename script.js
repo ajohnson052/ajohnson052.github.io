@@ -30,6 +30,7 @@ $(document).ready(function(){
       var b = Math.floor(Math.random()*250)
 
       return "rgb("+ r + "," + g + "," + b + ")";
-    })
+    });
+    // $( ".accordion" ).accordion();
 
 })

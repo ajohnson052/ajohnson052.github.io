@@ -124,6 +124,10 @@ ul{
   display: none;
 }
 
+/*.web{
+  display: none;
+}*/
+
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -167,9 +171,9 @@ ul{
     display: none;
   }
 
-  .tree img{
+  /*.tree img{
     position: absolute;
-  }
+  }*/
 
   .icon{
     display: block;

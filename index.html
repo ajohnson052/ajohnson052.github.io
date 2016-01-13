@@ -4,11 +4,13 @@
 <head>
   <title>Alexis Johnson</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <link rel="stylesheet" href="assets/style.css">
   <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <script src="https://code.jquery.com/jquery-2.1.4.min.js" type="text/javascript"></script>
-  <script type="text/javascript" src="d3/d3.v3.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.12/d3.js"></script>
   <script src="script.js"></script>
 </head>
 
@@ -75,8 +77,9 @@
     <section id="memos">
       <div class="content">
         <h1>Memos</h1>
-        <div class="post">
+        <!-- <div class="accordion"> -->
           <h2>Friendship Approval using CanCanCan</h2>
+          <div class="post">
             <p>This is a tutorial for adding friendship approval to a Rails application. To begin, we will assume that the application already has functioning User and Friendship models. (I used Devise to create the User model.) However, we will add in a new “Tempship” model so that it is easy to manage temporary friends separately from approved friends. For anyone who does not have a functioning Friendship model, the approach for creating a new one is very similar to the approach we will use for Tempships. In order to manage authorization, we will use the Ruby gem CanCanCan.</p>
             <p>First we will run a new migration for our Tempship model.</p>
             <i>In the console</i>
@@ -181,7 +184,8 @@ end
             <p>CanCanCan provides the authorize method. The current user will be passed in as 'user', and his authorization will be tested for the create method of the Friendship model, given the instance of Friendship being passed in.</p>
             <p>Further considerations: error handling and flash notices for successful requests, restrictions on adding yourself as your own friend, option to delete/ignore friend requests, restrictions on creating requests if prior requests have been ignored</p>
 
-        </div>
+          </div>
+        <!-- </div> -->
       </div>
     </section>
     <section id="contact">
