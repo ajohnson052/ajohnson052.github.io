@@ -50,6 +50,10 @@ a{
   text-transform: lowercase;
 }
 
+p > a {
+  text-transform: none;
+}
+
 i{
   margin: 1rem;
 }
@@ -135,6 +139,10 @@ ul{
   content: " ";
   clear: both;
   height: 0;
+}
+
+#unhactivate-icon {
+  background: #912105;
 }
 
 #home{
