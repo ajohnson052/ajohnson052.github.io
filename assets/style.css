@@ -17,14 +17,14 @@ body{
 nav{
   top: 0;
   text-align: center;
-  width: inherit;
-  padding: 1rem;
+  width: 100vw;
+  padding: 1em;
   z-index: 1;
 }
 
 .spacer{
   display: none;
-  height: 3rem;
+  height: 3em;
 }
 
 nav > a {
@@ -162,7 +162,7 @@ ul{
 
 @media screen and (max-width:400px){
 
-  nav{
+  header{
     font-size: 10px;
   }
 
