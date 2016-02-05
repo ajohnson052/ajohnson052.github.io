@@ -11,12 +11,18 @@ body{
   background: rgb(168,255,204);
   position:relative;
   color: rgb(28,106,96);
+  word-wrap: break-word;
 }
 
 nav{
-  width: auto;
-  float: left;
-  top: 2vh;
+  top: 0;
+  text-align: center;
+  width: inherit;
+  padding: 1rem;
+}
+
+nav > a {
+  padding: 1rem;
 }
 
 main{
@@ -54,9 +60,9 @@ p > a {
   text-transform: none;
 }
 
-i{
+/*i{
   margin: 1rem;
-}
+}*/
 
 ul{
   padding: 0;
