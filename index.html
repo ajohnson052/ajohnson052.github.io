@@ -32,7 +32,7 @@
       <a href="#contact">Contact</a>
     </nav> -->
   <div id="home">Alexis</br>Johnson</div>
-  <!-- <nav>
+  <nav>
     <a href="#home">Home</a>
 
     <a href="#about">About</a>
@@ -42,7 +42,7 @@
     <a href="#memos">Memos</a>
 
     <a href="#contact">Contact</a>
-  </nav> -->
+  </nav>
   <main>
     <section id="section1">
       <div class="content">
@@ -118,7 +118,7 @@ class CreateTableTempships < ActiveRecord::Migration
   end
 end
             </pre>
-            <p>We also need to define a Tempship model representing a many-to-many relationship between users. In order to reference a second user, we will use the alias “temp”. Create a new file called tempship.rb in app/models.</p>
+            <p>We also need to define a Tempship model representing a many-to-many relationship between users. In order to reference a second user, we will use the alias &quot;temp&quot;. Create a new file called tempship.rb in app/models.</p>
             <i>In app/models/tempship.rb</i>
             <pre class="code">
 class Tempship < ActiveRecord::Base

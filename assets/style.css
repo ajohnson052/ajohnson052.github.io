@@ -19,6 +19,7 @@ nav{
   text-align: center;
   width: inherit;
   padding: 1rem;
+  z-index: 1;
 }
 
 nav > a {
@@ -29,7 +30,7 @@ main{
   width: 80vw;
   margin: 0 auto;
   position: relative;
-  z-index: 100;
+  /*z-index: 100;*/
 }
 
 section{
@@ -155,6 +156,10 @@ ul{
   font-size: 15vw;
   position: relative;
   color: rgb(195,196,100);
+}
+
+#section1{
+  padding: 0;
 }
 
 @media screen and (max-width:400px){

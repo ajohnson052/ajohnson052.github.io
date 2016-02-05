@@ -3,11 +3,12 @@ $(document).ready(function(){
     if($(window).width() > 400){
       if ($(window).scrollTop() <= $("#home").height()){
         $("nav").css("position", "relative");
+        $("nav").css("background", "none");
       }
       else{
         $("nav").css("position", "fixed");
         $("nav").css("width", "100vw")
-        $("nav").css("background", "rgb(168,255,204)");
+        $("nav").css("background", "inherit");
       }
     }
   });
