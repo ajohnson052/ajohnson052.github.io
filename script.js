@@ -4,11 +4,13 @@ $(document).ready(function(){
       if ($(window).scrollTop() <= $("#home").height()){
         $("nav").css("position", "relative");
         $("nav").css("background", "none");
+        $(".spacer").css("display", "none");
       }
       else{
         $("nav").css("position", "fixed");
         $("nav").css("width", "100vw")
         $("nav").css("background", "inherit");
+        $(".spacer").css("display", "block");
       }
     }
   });

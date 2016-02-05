@@ -22,6 +22,11 @@ nav{
   z-index: 1;
 }
 
+.spacer{
+  display: none;
+  height: 3rem;
+}
+
 nav > a {
   padding: 1em;
 }
