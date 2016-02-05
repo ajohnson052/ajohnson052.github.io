@@ -115,6 +115,7 @@ ul{
 
 .code {
   border: 2px solid rgb(165, 219, 169);
+  word-wrap: normal;
   overflow-x: scroll;
   width: 80%;
   border-radius: 1vw;
