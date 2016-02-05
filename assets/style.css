@@ -23,7 +23,7 @@ nav{
 }
 
 nav > a {
-  padding: 1rem;
+  padding: 1em;
 }
 
 main{
@@ -160,15 +160,18 @@ ul{
 
 #section1{
   padding: 0;
+  text-align: center;
 }
 
 @media screen and (max-width:400px){
 
-  /*nav{
-    float: right;
-    top: 2vh;
-    position: relative;
-  }*/
+  nav{
+    font-size: 12px;
+  }
+
+  nav > a{
+    padding: .5em;
+  }
 
   main{
     width: 100vw;
