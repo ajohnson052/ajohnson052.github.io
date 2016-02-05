@@ -153,12 +153,12 @@ end
             <pre class="code">
 <%= link_to "Add #{@user.email} to my friends", tempships_path(temp_id: @user), method: :post %>
             </pre>
-            <p>This will automatically create a new tempship between the current user and @user before redirecting to @user’s profile. In the new tempship, @user is referenced via the temp_id while the current user is referenced via the user_id.</p>
+            <p>This will automatically create a new tempship between the current user and @user before redirecting to @user&rsquo;s profile. In the new tempship, @user is referenced via the temp_id while the current user is referenced via the user_id.</p>
             <p>Next we need to modify our friendship create method so that users can only add friends by confirming friend requests. To do this we will use CanCanCan. </p>
             <p>First, install the CanCanCan gem.</p>
             <i>In Gemfile</i>
             <pre class="code">
-gem ‘cancancan'
+gem &quot;cancancan&quot;
             </pre>
             <i>In the console</i>
             <pre class="code">
@@ -169,7 +169,7 @@ $ bundle install
             <pre class="code">
 $ rails g cancan:ability
             </pre>
-            <p>We will now specify who has permission to create friendships. In order for someone to create a friendship, we want that there exist a tempship between the current user and the ‘friend’. We also want that the friend (and not the current user) created that tempship.</p>
+            <p>We will now specify who has permission to create friendships. In order for someone to create a friendship, we want that there exist a tempship between the current user and the friend. We also want that the friend (and not the current user) created that tempship.</p>
             <i>In app/models/ability.rb</i>
             <pre class="code">
 class Ability
